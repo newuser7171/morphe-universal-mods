@@ -1,3 +1,11 @@
+## [1.0.0-dev.6](https://github.com/newuser7171/morphe-universal-mods/compare/v1.0.0-dev.5...v1.0.0-dev.6) (2026-10-09)
+
+### ✨ New Features
+
+* add optional universal Android backup controls ([89e0559](https://github.com/newuser7171/morphe-universal-mods/commit/89e055929024d2c9979738e4560c2b3184a265a9))
+* add read-only Google Play Billing APK/APKS compatibility scanner ([09c5ab4](https://github.com/newuser7171/morphe-universal-mods/commit/09c5ab4bce264e536a82abb4ae19d33b601d8dc9))
+* add universal app label and debugging manifest patches ([6b6730a](https://github.com/newuser7171/morphe-universal-mods/commit/6b6730a20bce64501dbe8a4d7676369adc7b9564))
+
 ## [1.0.0-dev.5](https://github.com/newuser7171/morphe-universal-mods/compare/v1.0.0-dev.4...v1.0.0-dev.5) (2026-10-09)
 
 ### ✨ New Features

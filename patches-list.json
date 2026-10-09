@@ -1,6 +1,6 @@
 {
   "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
-  "version": "1.0.0-dev.5",
+  "version": "1.0.0-dev.6",
   "patches": [
     {
       "name": "Example Patch",
@@ -106,6 +106,48 @@
           "values": null
         }
       ]
+    },
+    {
+      "name": "Universal - Allow Android Backup",
+      "description": "Sets android:allowBackup=true. Android backup rules and device policy may still prevent backups. Backups may contain sensitive app data.",
+      "default": false,
+      "category": null,
+      "compatiblePackages": null,
+      "options": []
+    },
+    {
+      "name": "Universal - Custom App Name",
+      "description": "Sets a literal launcher application label. Launcher activity-specific labels may override it.",
+      "default": false,
+      "category": null,
+      "compatiblePackages": null,
+      "options": [
+        {
+          "key": "custom_app_name",
+          "title": "Custom app name",
+          "description": "Literal name to show in supported launchers.",
+          "required": true,
+          "type": "kotlin.String",
+          "default": "My App",
+          "values": null
+        }
+      ]
+    },
+    {
+      "name": "Universal - Disable Android Backup",
+      "description": "Sets android:allowBackup=false. Some device-to-device transfers may use separate rules.",
+      "default": false,
+      "category": null,
+      "compatiblePackages": null,
+      "options": []
+    },
+    {
+      "name": "Universal - Enable Debugging",
+      "description": "Sets android:debuggable on the application. May reduce security and performance.",
+      "default": false,
+      "category": null,
+      "compatiblePackages": null,
+      "options": []
     }
   ]
 }

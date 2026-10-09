@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-10-09T12:59:11",
-  "description": "## [1.0.0-dev.5](https://github.com/newuser7171/morphe-universal-mods/compare/v1.0.0-dev.4...v1.0.0-dev.5) (2026-10-09)\n\n### ✨ New Features\n\n* add selectable Hill Climb Racing grip and torque Morphe patches ([f922d1a](https://github.com/newuser7171/morphe-universal-mods/commit/f922d1a28ee5697193596aef7c1db30d999407d9))\n* integrate configurable Hill Climb Racing split APK physics builder ([bba97c3](https://github.com/newuser7171/morphe-universal-mods/commit/bba97c35a9be13168fdb347d1909551024a5b384))",
-  "download_url": "https://github.com/newuser7171/morphe-universal-mods/releases/download/v1.0.0-dev.5/patches-1.0.0-dev.5.mpp",
+  "created_at": "2026-10-09T13:07:40",
+  "description": "## [1.0.0-dev.6](https://github.com/newuser7171/morphe-universal-mods/compare/v1.0.0-dev.5...v1.0.0-dev.6) (2026-10-09)\n\n### ✨ New Features\n\n* add optional universal Android backup controls ([89e0559](https://github.com/newuser7171/morphe-universal-mods/commit/89e055929024d2c9979738e4560c2b3184a265a9))\n* add read-only Google Play Billing APK/APKS compatibility scanner ([09c5ab4](https://github.com/newuser7171/morphe-universal-mods/commit/09c5ab4bce264e536a82abb4ae19d33b601d8dc9))\n* add universal app label and debugging manifest patches ([6b6730a](https://github.com/newuser7171/morphe-universal-mods/commit/6b6730a20bce64501dbe8a4d7676369adc7b9564))",
+  "download_url": "https://github.com/newuser7171/morphe-universal-mods/releases/download/v1.0.0-dev.6/patches-1.0.0-dev.6.mpp",
   "signature_download_url": "",
-  "version": "1.0.0-dev.5"
+  "version": "1.0.0-dev.6"
 }

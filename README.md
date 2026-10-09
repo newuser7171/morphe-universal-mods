@@ -15,7 +15,7 @@ Click here to add these patches to Morphe: https://morphe.software/add-source?gi
 ## 🩹 Patches list
 
 <!-- PATCHES_START EXPANDED -->
-> **[v1.0.0-dev.5](https://github.com/newuser7171/morphe-universal-mods/releases/tag/v1.0.0-dev.5)**&nbsp;&nbsp;•&nbsp;&nbsp;`dev`&nbsp;&nbsp;•&nbsp;&nbsp;3 patches total
+> **[v1.0.0-dev.6](https://github.com/newuser7171/morphe-universal-mods/releases/tag/v1.0.0-dev.6)**&nbsp;&nbsp;•&nbsp;&nbsp;`dev`&nbsp;&nbsp;•&nbsp;&nbsp;7 patches total
 <details open>
 <summary>📦 XYZ app&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
 <br>
@@ -44,6 +44,19 @@ Click here to add these patches to Morphe: https://morphe.software/add-source?gi
 |----------|----------------|-----------|
 | [Hill Climb Racing - Motor Torque](#hill-climb-racing-motor-torque) | Adjust starter vehicle wheel-joint torque limit (version 1.72.2). | • Motor torque multiplier |
 | [Hill Climb Racing - Wheel Grip](#hill-climb-racing-wheel-grip) | Adjust starter vehicle wheel friction (version 1.72.2). | • Wheel grip multiplier |
+
+</details>
+
+<details open>
+<summary>🌐 Universal&nbsp;&nbsp;•&nbsp;&nbsp;4 patches</summary>
+<br>
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Universal - Allow Android Backup](#universal-allow-android-backup) | Sets android:allowBackup=true. Android backup rules and device policy may still prevent backups. Backups may contain sensitive app data. |  |
+| [Universal - Custom App Name](#universal-custom-app-name) | Sets a literal launcher application label. Launcher activity-specific labels may override it. | • Custom app name |
+| [Universal - Disable Android Backup](#universal-disable-android-backup) | Sets android:allowBackup=false. Some device-to-device transfers may use separate rules. |  |
+| [Universal - Enable Debugging](#universal-enable-debugging) | Sets android:debuggable on the application. May reduce security and performance. |  |
 
 </details>
 
