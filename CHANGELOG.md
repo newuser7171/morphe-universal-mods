@@ -1,3 +1,9 @@
+## [1.0.0-dev.2](https://github.com/newuser7171/morphe-universal-mods/compare/v1.0.0-dev.1...v1.0.0-dev.2) (2026-10-09)
+
+### ✨ New Features
+
+* register Hill Climb Racing 1.72.2 compatibility target ([0346636](https://github.com/newuser7171/morphe-universal-mods/commit/034663687ae49e2b9787ed9595fde5b6c858bad7))
+
 ## 1.0.0-dev.1 (2026-10-09)
 
 ### ✨ New Features
