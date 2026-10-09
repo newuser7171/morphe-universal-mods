@@ -1,3 +1,14 @@
+## [1.0.0-dev.3](https://github.com/newuser7171/morphe-universal-mods/compare/v1.0.0-dev.2...v1.0.0-dev.3) (2026-10-09)
+
+### 🐛 Bug Fixes
+
+* remove stale JAR manifest and guard physics output ([8650ee8](https://github.com/newuser7171/morphe-universal-mods/commit/8650ee8cece921c70b2be631bd6a031dfa2d7673))
+
+### ✨ New Features
+
+* add Hill Climb Racing physics asset inspector ([c59e4e3](https://github.com/newuser7171/morphe-universal-mods/commit/c59e4e30f296c709a25ff7d71b08c76f4b325404))
+* prototype configurable Hill Climb Racing physics asset modification ([043045f](https://github.com/newuser7171/morphe-universal-mods/commit/043045f678824936688abf69b1e8b9b1b4a42d6d))
+
 ## [1.0.0-dev.2](https://github.com/newuser7171/morphe-universal-mods/compare/v1.0.0-dev.1...v1.0.0-dev.2) (2026-10-09)
 
 ### ✨ New Features
