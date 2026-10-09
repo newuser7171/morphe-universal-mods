@@ -1,3 +1,9 @@
+## [1.0.0-dev.4](https://github.com/newuser7171/morphe-universal-mods/compare/v1.0.0-dev.3...v1.0.0-dev.4) (2026-10-09)
+
+### ✨ New Features
+
+* add zipalign and APK v2+ signing verification helper ([727d994](https://github.com/newuser7171/morphe-universal-mods/commit/727d994fecb5113a4fa838870a84f8c748398caf))
+
 ## [1.0.0-dev.3](https://github.com/newuser7171/morphe-universal-mods/compare/v1.0.0-dev.2...v1.0.0-dev.3) (2026-10-09)
 
 ### 🐛 Bug Fixes
