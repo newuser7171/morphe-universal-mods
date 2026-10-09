@@ -1,14 +1,14 @@
-group = "app.template"
+group = "com.newuser7171.morphe"
 
 patches {
     // TODO: Update this section with your project details.
     about {
-        name = "UserXYZ Patches"
-        description = "Patches for apps I like"
-        source = "git@github.com:UserXYZ/morphe-patches.git"
-        author = "Awesome dev"
+        name = "Universal Mods"
+        description = "Modular Android app and offline-game patches with compatibility-aware targeting"
+        source = "https://github.com/newuser7171/morphe-universal-mods"
+        author = "newuser7171"
         contact = "na"
-        website = "na"
+        website = "https://github.com/newuser7171/morphe-universal-mods"
         license = "GPLv3"
     }
 }
