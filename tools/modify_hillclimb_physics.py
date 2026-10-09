@@ -6,7 +6,6 @@ The output APK must be re-signed before installation.
 """
 import argparse
 import hashlib
-import io
 import json
 import math
 import zipfile
@@ -50,13 +49,17 @@ def main():
         parser.error("friction multiplier must be between 0.1 and 3")
     if args.apk.resolve() == args.output.resolve():
         parser.error("output must differ from input")
+    if not args.apk.is_file():
+        parser.error("input APK does not exist")
+    if args.output.exists():
+        parser.error("output already exists; refusing to overwrite")
     target = ALLOWED[args.vehicle]
     with zipfile.ZipFile(args.apk) as source:
         original = source.read(target)
         replacement, count = modify(original, args.friction_multiplier)
         with zipfile.ZipFile(args.output, "w") as dest:
             for info in source.infolist():
-                if info.filename.startswith("META-INF/") and info.filename.upper().endswith((".RSA", ".DSA", ".EC", ".SF")):
+                if info.filename.upper().startswith("META-INF/") and info.filename.upper().endswith((".RSA", ".DSA", ".EC", ".SF", "MANIFEST.MF")):
                     continue
                 dest.writestr(info, replacement if info.filename == target else source.read(info.filename))
     print(json.dumps({
