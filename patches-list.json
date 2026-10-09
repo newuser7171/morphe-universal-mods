@@ -1,6 +1,6 @@
 {
   "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
-  "version": "1.0.0-dev.4",
+  "version": "1.0.0-dev.5",
   "patches": [
     {
       "name": "Example Patch",
@@ -34,6 +34,78 @@
         }
       ],
       "options": []
+    },
+    {
+      "name": "Hill Climb Racing - Motor Torque",
+      "description": "Adjust starter vehicle wheel-joint torque limit (version 1.72.2).",
+      "default": false,
+      "category": null,
+      "compatiblePackages": [
+        {
+          "packageName": "com.fingersoft.hillclimb",
+          "name": "Hill Climb Racing",
+          "description": null,
+          "apkFileType": "APK",
+          "appIconColor": "#E8A62B",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "1.72.2",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": [
+        {
+          "key": "motor_torque_multiplier",
+          "title": "Motor torque multiplier",
+          "description": null,
+          "required": false,
+          "type": "kotlin.Float",
+          "default": 2.0,
+          "values": null
+        }
+      ]
+    },
+    {
+      "name": "Hill Climb Racing - Wheel Grip",
+      "description": "Adjust starter vehicle wheel friction (version 1.72.2).",
+      "default": false,
+      "category": null,
+      "compatiblePackages": [
+        {
+          "packageName": "com.fingersoft.hillclimb",
+          "name": "Hill Climb Racing",
+          "description": null,
+          "apkFileType": "APK",
+          "appIconColor": "#E8A62B",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "1.72.2",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": [
+        {
+          "key": "wheel_grip_multiplier",
+          "title": "Wheel grip multiplier",
+          "description": null,
+          "required": false,
+          "type": "kotlin.Float",
+          "default": 4.0,
+          "values": null
+        }
+      ]
     }
   ]
 }

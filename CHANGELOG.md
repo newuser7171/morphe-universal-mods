@@ -1,3 +1,10 @@
+## [1.0.0-dev.5](https://github.com/newuser7171/morphe-universal-mods/compare/v1.0.0-dev.4...v1.0.0-dev.5) (2026-10-09)
+
+### ✨ New Features
+
+* add selectable Hill Climb Racing grip and torque Morphe patches ([f922d1a](https://github.com/newuser7171/morphe-universal-mods/commit/f922d1a28ee5697193596aef7c1db30d999407d9))
+* integrate configurable Hill Climb Racing split APK physics builder ([bba97c3](https://github.com/newuser7171/morphe-universal-mods/commit/bba97c35a9be13168fdb347d1909551024a5b384))
+
 ## [1.0.0-dev.4](https://github.com/newuser7171/morphe-universal-mods/compare/v1.0.0-dev.3...v1.0.0-dev.4) (2026-10-09)
 
 ### ✨ New Features
